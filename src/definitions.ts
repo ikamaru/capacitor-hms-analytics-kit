@@ -5,5 +5,5 @@ declare module '@capacitor/core' {
 }
 
 export interface AnalyticsKitPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  
 }

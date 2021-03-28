@@ -9,10 +9,6 @@ export class AnalyticsKitWeb extends WebPlugin implements AnalyticsKitPlugin {
     });
   }
 
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
-  }
 }
 
 const AnalyticsKit = new AnalyticsKitWeb();
