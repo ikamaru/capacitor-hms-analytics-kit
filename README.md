@@ -40,7 +40,7 @@ buildscript {
     }
     dependencies {
         //...
-        classpath 'com.huawei.agconnect:agcp:1.3.1.300' //TODO: add this line
+        classpath 'com.huawei.agconnect:agcp:1.4.1.300' //TODO: add this line
     }
 }
 allprojects {
